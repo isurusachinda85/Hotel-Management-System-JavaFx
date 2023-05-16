@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="611.0" prefWidth="699.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AvailableRoomController">
+   <children>
+      <ImageView fitHeight="611.0" fitWidth="699.0" pickOnBounds="true">
+         <image>
+            <Image url="@../image/suite-room-slider2.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="186.0" layoutY="14.0" text="Room Details" textFill="#000dff">
+         <font>
+            <Font name="Brush Script MT Italic" size="73.0" />
+         </font>
+      </Label>
+      <TableView layoutX="22.0" layoutY="147.0" opacity="0.71" prefHeight="428.0" prefWidth="655.0">
+        <columns>
+          <TableColumn prefWidth="106.0" text="Room No" />
+          <TableColumn prefWidth="141.0" text="Room Type" />
+            <TableColumn prefWidth="123.0" text="Capacity" />
+            <TableColumn prefWidth="137.0" text="Price/Day" />
+            <TableColumn prefWidth="147.0" text="Status" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

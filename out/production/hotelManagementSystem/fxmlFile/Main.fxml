@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainPage" prefHeight="627.0" prefWidth="1012.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <ImageView fitHeight="627.0" fitWidth="1012.0" pickOnBounds="true">
+         <image>
+            <Image url="@../image/homepage-banner-1920x1244.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="251.0" layoutY="14.0" prefHeight="85.0" prefWidth="674.0" text="Blue Ocean Hotel">
+         <font>
+            <Font name="Algerian" size="69.0" />
+         </font>
+      </Label>
+      <Button layoutX="352.0" layoutY="362.0" mnemonicParsing="false" onAction="#adminLogin" prefHeight="55.0" prefWidth="308.0" style="-fx-background-color: #00FCFC; -fx-background-radius: 40;" text="Admin Login">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="352.0" layoutY="486.0" mnemonicParsing="false" onAction="#receptionistLogin" prefHeight="55.0" prefWidth="308.0" style="-fx-background-color: #353B48; -fx-background-radius: 40;" text="Receptionist Login" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

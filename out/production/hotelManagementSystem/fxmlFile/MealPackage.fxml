@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="611.0" prefWidth="699.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MealPackageController">
+   <children>
+      <ImageView fitHeight="611.0" fitWidth="699.0" pickOnBounds="true">
+         <image>
+            <Image url="@../image/content9555.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="189.0" layoutY="14.0" text="Meal Package" textFill="#183ee8">
+         <font>
+            <Font name="Bodoni MT Bold" size="54.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="185.0" layoutX="31.0" layoutY="109.0" opacity="0.79" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/mouthwatering-healthy.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="139.0" fitWidth="185.0" layoutX="250.0" layoutY="209.0" opacity="0.79" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/popular-chinese-foods.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="139.0" fitWidth="193.0" layoutX="472.0" layoutY="371.0" opacity="0.79" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Lunch___Photo_Credit__Aliza_J_Sokolow.0.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Label layoutX="61.0" layoutY="274.0" text="Local Meals">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="266.0" layoutY="371.0" text="Chinese Meals">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="492.0" layoutY="519.0" text="French meals">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

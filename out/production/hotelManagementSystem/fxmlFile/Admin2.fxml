@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="admin2Context" prefHeight="627.0" prefWidth="1012.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Admin2Controller">
+   <children>
+      <ImageView fitHeight="627.0" fitWidth="1012.0" pickOnBounds="true">
+         <image>
+            <Image url="@../image/homepage-banner-1920x1244.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#073eff" height="627.0" opacity="0.74" stroke="BLACK" strokeType="INSIDE" width="301.0" />
+      <Button layoutX="57.0" layoutY="124.0" mnemonicParsing="false" onAction="#roomAddingOnAction" prefHeight="47.0" prefWidth="187.0" style="-fx-background-color: #00FCFC; -fx-background-radius: 10;" text="Rooms">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="57.0" layoutY="206.0" mnemonicParsing="false" onAction="#mealPackageOnAction" prefHeight="47.0" prefWidth="187.0" style="-fx-background-color: #02E84A; -fx-background-radius: 10;" text="Meal Package">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="57.0" layoutY="285.0" mnemonicParsing="false" onAction="#incomeReportOnAction" prefHeight="47.0" prefWidth="187.0" style="-fx-background-color: #3B3B0F; -fx-background-radius: 10;" text="Income Report" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button layoutX="82.0" layoutY="452.0" mnemonicParsing="false" onAction="#backOnAction" prefHeight="47.0" prefWidth="138.0" style="-fx-background-color: #000000; -fx-background-radius: 70;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="611.0" layoutY="409.0" prefHeight="66.0" prefWidth="140.0" text="Blue ">
+         <font>
+            <Font name="Algerian" size="45.0" />
+         </font>
+      </Label>
+      <Label layoutX="681.0" layoutY="475.0" prefHeight="66.0" prefWidth="165.0" text="Ocean">
+         <font>
+            <Font name="Algerian" size="45.0" />
+         </font>
+      </Label>
+      <Label layoutX="825.0" layoutY="539.0" prefHeight="66.0" prefWidth="165.0" text="Hotel">
+         <font>
+            <Font name="Algerian" size="45.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="context" layoutX="308.0" layoutY="8.0" prefHeight="611.0" prefWidth="699.0">
+         <children>
+            <Label layoutX="42.0" layoutY="31.0" prefHeight="89.0" prefWidth="564.0" text="Welcome  Admin" textFill="#414ae4">
+               <font>
+                  <Font name="Consolas" size="73.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <Button layoutX="90.0" layoutY="527.0" mnemonicParsing="false" onAction="#logOutAdmin" prefHeight="56.0" prefWidth="121.0" style="-fx-background-radius: 20; -fx-background-color: #f10c0c;" text="Log out">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

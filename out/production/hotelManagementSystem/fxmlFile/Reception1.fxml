@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="reception1" prefHeight="627.0" prefWidth="1012.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Reception1Controller">
+   <children>
+      <ImageView fitHeight="627.0" fitWidth="1012.0" pickOnBounds="true">
+         <image>
+            <Image url="@../image/homepage-banner-1920x1244.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#073eff" height="627.0" opacity="0.74" stroke="BLACK" strokeType="INSIDE" width="301.0" />
+      <Label layoutX="616.0" layoutY="399.0" prefHeight="66.0" prefWidth="140.0" text="Blue ">
+         <font>
+            <Font name="Algerian" size="45.0" />
+         </font>
+      </Label>
+      <Label layoutX="686.0" layoutY="465.0" prefHeight="66.0" prefWidth="165.0" text="Ocean">
+         <font>
+            <Font name="Algerian" size="45.0" />
+         </font>
+      </Label>
+      <Label layoutX="803.0" layoutY="531.0" prefHeight="66.0" prefWidth="165.0" text="Hotel">
+         <font>
+            <Font name="Algerian" size="45.0" />
+         </font>
+      </Label>
+      <Label layoutX="374.0" layoutY="-27.0" text="Welcome " textFill="#2331f5">
+         <font>
+            <Font name="Blackadder ITC" size="96.0" />
+         </font>
+      </Label>
+      <Text fill="WHITE" layoutX="27.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User name">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="receptionUserName" layoutX="23.0" layoutY="147.0" prefHeight="43.0" prefWidth="256.0" promptText="Enter Username" style="-fx-background-radius: 30;" />
+      <Text fill="WHITE" layoutX="23.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="receptionPassword" layoutX="23.0" layoutY="258.0" prefHeight="45.0" prefWidth="256.0" promptText="Enter Password" style="-fx-background-radius: 30;" />
+      <Button layoutX="64.0" layoutY="382.0" mnemonicParsing="false" onAction="#receptionLoginOnAction" prefHeight="45.0" prefWidth="179.0" style="-fx-background-color: #00FCFC; -fx-background-radius: 20;" text="Login">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="84.0" layoutY="483.0" mnemonicParsing="false" onAction="#receptionBackOnAction" prefHeight="45.0" prefWidth="140.0" style="-fx-background-color: #353B48; -fx-background-radius: 20;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="515.0" layoutY="99.0" text="Receptionist" textFill="#2331f5">
+         <font>
+            <Font name="Blackadder ITC" size="96.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

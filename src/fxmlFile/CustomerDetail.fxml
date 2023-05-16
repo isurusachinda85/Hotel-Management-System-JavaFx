@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="611.0" prefWidth="699.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerDetailController">
+   <children>
+      <ImageView fitHeight="611.0" fitWidth="699.0" pickOnBounds="true">
+         <image>
+            <Image url="@../image/1612502477_slider-mob-5_2.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="143.0" layoutY="14.0" text="Customer Details" textFill="#000dff">
+         <font>
+            <Font name="Brush Script MT Italic" size="73.0" />
+         </font>
+      </Label>
+      <TableView layoutX="6.0" layoutY="157.0" opacity="0.89" prefHeight="428.0" prefWidth="687.0">
+        <columns>
+          <TableColumn prefWidth="123.0" text="Customer No" />
+          <TableColumn prefWidth="84.0" text="Name" />
+            <TableColumn prefWidth="98.0" text="Tel-No" />
+            <TableColumn prefWidth="143.0" text="Total Payment" />
+            <TableColumn prefWidth="119.0" text="Check-in" />
+            <TableColumn prefWidth="119.0" text="Check-out" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

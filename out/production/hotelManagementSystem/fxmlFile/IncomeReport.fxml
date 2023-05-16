@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="611.0" prefWidth="699.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.IncomeReportController">
+   <children>
+      <ImageView fitHeight="611.0" fitWidth="699.0" pickOnBounds="true">
+         <image>
+            <Image url="@../image/6-types-hotel-reports-small-hotels.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="158.0" layoutY="42.0" text="Income Report" textFill="#0032f8">
+         <font>
+            <Font name="Franklin Gothic Medium" size="53.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="145.0" fitWidth="218.0" layoutX="73.0" layoutY="163.0" opacity="0.88" pickOnBounds="true">
+         <image>
+            <Image url="@../image/Report_thumbname.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="145.0" fitWidth="218.0" layoutX="391.0" layoutY="269.0" opacity="0.88" pickOnBounds="true">
+         <image>
+            <Image url="@../image/annual-report.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Label layoutX="115.0" layoutY="348.0" text="Monthly Report">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="438.0" layoutY="454.0" text="Annually Reports">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
